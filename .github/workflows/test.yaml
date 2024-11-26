@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: burek
+      run: |
+        printenv
